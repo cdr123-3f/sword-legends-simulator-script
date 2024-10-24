@@ -1,4 +1,4 @@
-if game.PlaceId ==  then
+if game.PlaceId == 17144957461 then
 
 while true do
 game:GetService("Players").LocalPlayer.Character.sword.Handle.Script.RemoteEvent:FireServer()
