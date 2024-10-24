@@ -1,3 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "NOTIFICATION";
+	Text = "WHEN YOU GET A NEW SWORD THEN START THE SCRIPT AGAIN";
+	Icon = "rbxthumb://type=Asset&id=8571156203&w=150&h=150"})
+Duration = 15;
+
 while true do
 game:GetService("Players").LocalPlayer.Character.sword.Handle.Script.RemoteEvent:FireServer()
 
@@ -8,9 +14,3 @@ game:GetService("Players").LocalPlayer.Character.sword.Handle.Script.RemoteEvent
 game:GetService("Players").LocalPlayer.Character.sword.Handle.Script.RemoteEvent:FireServer()
 wait(0.0000000000000000000000001) 
 end
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "NOTIFICATION";
-	Text = "WHEN YOU GET A NEW SWORD THEN START THE SCRIPT AGAIN";
-	Icon = "rbxthumb://type=Asset&id=8571156203&w=150&h=150"})
-Duration = 15;
